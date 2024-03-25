@@ -8,6 +8,12 @@ body{
     justify-items: center;
 }
 
+.header{
+    display: grid;
+    gap: 60px;
+    justify-items: center;
+}
+
 
 img{
     max-width: 100%;
@@ -28,15 +34,38 @@ p{
 }
 
 
+.menu:hover{
+    border-radius: 4px solid #e21;
+}
+
+a {
+    display: inline-block;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    font-family: Arial;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 .menu{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    
 }
 
+
 .menu a{
-    background-color: #fff;
+    display: block;
     padding: 15px 30px;
     border-radius: 5px;
     color: #000;
@@ -58,6 +87,10 @@ p{
     gap: 20px;
     align-content: center;
     justify-items: end;
+}
+
+.introducao h1{
+    font-size: 2rem;
 }
 
 .botao{
